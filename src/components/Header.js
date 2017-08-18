@@ -13,6 +13,8 @@ class Header extends Component {
           <div className='fw7 mr1'>Hacker News</div>
           <Link to='/' className='ml1 no-underline black'>new</Link>
           <div className='ml1'>|</div>
+           <Link to='/search' className='ml1 no-underline black'>search</Link>
+          <div className='ml1'>|</div>
           {userId &&
             <Link to='/create' className='ml1 no-underline black'>submit</Link>
           }
